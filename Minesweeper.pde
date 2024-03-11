@@ -48,7 +48,7 @@ void setup ()
 }
 public void setMines()
 {
-    int totalMines = 1;//(int)(Math.random()*88)+8;
+    int totalMines = (int)(Math.random()*88)+8;
     int r = 0;
     int c = 0;
     
